@@ -3,8 +3,9 @@
 echo "Create .zshrc and file if not already present"
 touch ~/.zshrc
 
-echo "Installing Node via NVM…"
+echo "Installing NVM and Node…"
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+nvm install node
 
 echo "Installing Brew…"
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
