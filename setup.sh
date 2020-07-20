@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-echo "Create .zshrc file if not already present"
-touch "${HOME}/.zshrc"
+echo "Create .zshrc and file if not already present"
+touch ~/.zshrc
 
 echo "Installing Node via NVM…"
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
@@ -13,5 +13,5 @@ echo "Install from Brew…"
 brew install git hub tig wget jq dry
 brew cask install gitup firefox google-chrome visual-studio-code sublime-text emacs macvim alfred slack spotify itsycal dash
 
-echo "mkdir -p ${HOME}/code"
-mkdir -p "${HOME}/code"
+echo "mkdir -p ~/code"
+mkdir -p ~/code
