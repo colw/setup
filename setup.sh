@@ -26,10 +26,11 @@ brew install dry
 # JSON Formatter — https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en
 
 # Install VS Code Plugins
-# vscode-styled-components https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components
-# vscode-graphql https://marketplace.visualstudio.com/items?itemName=Prisma.vscode-graphql
-# prettier https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
-# mjml https://marketplace.visualstudio.com/items?itemName=attilabuti.vscode-mjml
+code --install-extension attilabuti.vscode-mjml
+code --install-extension esbenp.prettier-vscode 
+code --isntall-extension Prisma.vscode-graphql
+code --install-extension ms-azuretools.vscode-docker
+code --install-extension jpoissonnier.vscode-styled-components
 
 echo "mkdir -p ~/code"
 mkdir -p ~/code
