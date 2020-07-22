@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-echo "Create .zshrc and file if not already present"
+echo "Create .zshrc file if not already present"
 touch ~/.zshrc
 
 echo "Installing NVM and Node…"
