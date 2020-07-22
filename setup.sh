@@ -3,6 +3,8 @@
 echo "Create .zshrc file if not already present"
 touch ~/.zshrc
 
+xcode-select --install
+
 echo "Installing NVM and Node…"
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 nvm install node
