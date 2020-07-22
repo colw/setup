@@ -31,6 +31,7 @@ code --install-extension esbenp.prettier-vscode
 code --isntall-extension Prisma.vscode-graphql
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension jpoissonnier.vscode-styled-components
+code --install-extension deerawan.vscode-dash
 
 echo "mkdir -p ~/code"
 mkdir -p ~/code
