@@ -28,9 +28,6 @@ echo "Install dry"
 brew tap moncho/dry
 brew install dry
 
-# Install Chrome plugins
-# JSON Formatter — https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en
-
 # Install VS Code Plugins
 echo "Installing vscode plugins…"
 code --install-extension attilabuti.vscode-mjml
@@ -42,3 +39,10 @@ code --install-extension deerawan.vscode-dash
 
 echo "mkdir -p ~/code"
 mkdir -p ~/code
+
+# TODO
+# Install Chrome plugins
+# Whatfont — https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm
+# JSON Formatter — https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa
+# React Developer Tools — https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi
+# Apollo Client Developer Tools — https://chrome.google.com/webstore/detail/apollo-client-developer-t/jdkknkkbebbapilgoeccciglkfbmbnfm
