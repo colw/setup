@@ -9,6 +9,7 @@ xcode-select --install
 echo "Installing NVM and Node…"
 echo "curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash"
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+source ~/.zshrc
 nvm install node
 
 echo "Installing Brew…"
