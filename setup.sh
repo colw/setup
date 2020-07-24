@@ -38,6 +38,7 @@ code --isntall-extension Prisma.vscode-graphql
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension jpoissonnier.vscode-styled-components
 code --install-extension deerawan.vscode-dash
+code --install-extension eamodio.gitlens
 
 echo "Installing yarn…"
 echo "curl -o- -L https://yarnpkg.com/install.sh | bash"
