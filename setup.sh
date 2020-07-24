@@ -47,7 +47,6 @@ curl -o- -L https://yarnpkg.com/install.sh | bash
 echo "mkdir -p ~/code"
 mkdir -p ~/code
 
-
 # TODO
 # Install Chrome plugins
 # Whatfont — https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm
