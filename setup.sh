@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 
-echo "Create .zshrc file if not already present"
-touch ~/.zshrc
+echo "Install Oh My Zsh. Create ~/.zshrc"
+echo "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 echo "install Xcode tools"
 xcode-select --install
@@ -45,9 +46,6 @@ curl -o- -L https://yarnpkg.com/install.sh | bash
 echo "mkdir -p ~/code"
 mkdir -p ~/code
 
-echo "Oh My Zsh"
-echo "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # TODO
 # Install Chrome plugins
