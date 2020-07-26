@@ -20,7 +20,7 @@ echo "Install from Brew…"
 echo "brew install git hub tig wget jq k9s mkcert nss"
 brew install git hub tig wget jq k9s mkcert nss
 echo "brew cask install docker tunnelblick google-cloud-sdk gitup firefox google-chrome visual-studio-code sublime-text emacs macvim alfred slack spotify itsycal bitbar vmware-fusion cask"
-brew cask install docker tunnelblick google-cloud-sdk gitup firefox google-chrome visual-studio-code sublime-text emacs macvim alfred slack spotify itsycal bitbar vmware-fusion notion iterm2
+brew cask install docker tunnelblick google-cloud-sdk gitup firefox google-chrome visual-studio-code sublime-text emacs macvim alfred slack spotify itsycal bitbar vmware-fusion notion iterm2 netnewswire
 
 echo "Install dash4"
 brew tap homebrew/cask-versions
